@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth" class="transition-all duration-300">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +10,29 @@
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
 	</style>
+	<script>
+		if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+		document.documentElement.classList.add('dark')
+		} else {
+		document.documentElement.classList.remove('dark')
+		}
+		function themeChange(){
+			console.log(localStorage.theme)
+			if (localStorage.theme === 'dark') {
+				localStorage.theme = 'light';
+			document.documentElement.classList.remove('dark');
+			}
+			else {
+				localStorage.theme = 'dark';
+				document.documentElement.classList.add('dark');
+			}
+		}
+	</script>
 </head>
-<body class="bg-[#dddddd] dark:bg-mainbg relative overflow-x-hidden font-sans">
+<body class="bg-[#dddddd] dark:bg-mainbg relative overflow-x-hidden font-sans transition-colors duration-300">
 	<section id="welcome" class="h-screen">
 		<a href="/"><h1 class="font-bold w-[200px] h-20 text-2xl pt-5 mx-auto text-center bg-gradient-to-r from-startor via-[#9500ff] to-[#0a71d1] transition-all duration-500 bg-clip-text text-transparent">AlexBlackeyed</h1></a>
-		<h1 class="dark:text-gray-200 text-features mt-56 font-bold text-3xl sm:text-5xl text-center">Hey, I'm <a href="https://github.com/AlexBlackeyed" class="h-36 text-3xl underline decoration-[#0a5ad1] hover:cursor-pointer transition-all duration-500 sm:text-5xl mt-5 bg-gradient-to-r from-startor via-[#9500ff] to-[#0a71d1] bg-clip-text text-transparent">AlexBlackeyed</a></h1>
+		<h1 class="dark:text-gray-200 text-features mt-56 font-bold text-3xl sm:text-5xl text-center">Hey, I'm <a onclick="themeChange()" class="h-36 text-3xl underline decoration-[#0a5ad1] hover:cursor-pointer transition-all duration-500 sm:text-5xl mt-5 bg-gradient-to-r from-startor via-[#9500ff] to-[#0a71d1] bg-clip-text text-transparent">AlexBlackeyed</a></h1>
 		<h2 class="font-semibold text-sm sm:text-lg text-center mt-2 text-desc">A Full Stack Developer specializing in creating<br>Python Applications</h2>
 		<div class="flex flex-wrap flex-grow w-full justify-center mt-5 gap-10">
 			<a href="#features"><button class="py-4 px-5 rounded-md text-white bg-startor hover:bg-[#e66000] whitespace-nowrap">Get To Know Me</button></a>
