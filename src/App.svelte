@@ -9,7 +9,7 @@
   <section class="h-screen">
     <Welcome/>
   </section>
-  <section class="flex justify-center h-auto">
+  <section id="features" class="flex justify-center h-auto">
     <Projects/>
   </section>
   <br><br><br><br>
