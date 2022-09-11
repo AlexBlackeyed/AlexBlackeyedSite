@@ -8,7 +8,7 @@ module.exports = {
             'sans' : ['Sora',defaultTheme.fontFamily.sans]
         },
         colors : {
-          mainbg : '#141414',
+          mainbg : '#111822',
           maintexto: '#FF6B00',
           maintextb: '#152e58',
           startor: 'rgb(255, 107, 0,1)',

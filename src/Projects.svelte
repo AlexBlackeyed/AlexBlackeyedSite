@@ -21,7 +21,7 @@
 </script>
 <div class="grid grid-rows-{projects.length} justify-center gap-10 break-words w-11/12 mt-10">
     {#each projects as project }
-        <div class="dark:bg-features bg-[#fefefe] shadow-md shadow-slate-200 dark:shadow-features h-56 rounded-md transition-all border-b-0 border-b-startor duration-300 hover:-translate-x-4 hover:my-5 hover:-translate-y-4 hover:border-b-startor hover:border-b-4 hover:shadow-none">
+        <div class="dark:bg-features bg-[#fefefe] shadow-md shadow-slate-200 dark:shadow-features h-56 rounded-md transition-all border-b-0 border-b-startor duration-300 sm:hover:-translate-x-4 sm:hover:my-5 sm:hover:-translate-y-4 hover:border-b-startor hover:border-b-4 hover:shadow-none">
             <h3 class="dark:text-featstitle text-features pt-5 pl-5 font-semibold text-xl hover:underline hover:decoration-features dark:hover:decoration-featstitle cursor-pointer">{project.title}</h3>
             <h4 class="dark:text-featsdesc text-slate-800 pt-10 px-5 font-medium text-sm">{project.desc}</h4>
             <div class="flex items-center mb-5">
