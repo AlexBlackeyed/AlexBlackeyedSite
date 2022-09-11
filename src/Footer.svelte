@@ -1,0 +1,1 @@
+<footer class="dark:bg-features bg-[#fefefe] clear-both absolute w-full bottom-0 dark:text-featstitle text-features font-semibold text-sm p-3 text-center">™2022 - Present, AlexBlackeyed</footer>
