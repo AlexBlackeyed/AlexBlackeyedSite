@@ -15,8 +15,8 @@ module.exports = {
           endbl : 'rgb(0, 102, 255,0.25)',
           desc : '#818181',
           features : '#1e293b',
-          featstitle : '#CBD5E1',
-          featsdesc : '#A5AFBD'
+          featstitle : 'hsl(217, 33%, 84%)',
+          featsdesc : 'hsl(217, 33%, 64%)'
         },
     },
 },
