@@ -5,7 +5,7 @@
   import Footer from './Footer.svelte'
 </script>
 <Head/>
-<main class="bg-[#dddddd] dark:bg-mainbg relative overflow-x-hidden font-sans transition-all duration-300">
+<main class="bg-[#dddddd] dark:bg-mainbg relative overflow-x-hidden font-sans transition-all duration-300 select-none">
   <section class="h-screen">
     <Welcome/>
   </section>
