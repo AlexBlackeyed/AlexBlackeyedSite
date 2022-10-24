@@ -7,6 +7,6 @@
 </a></h1>
 <h2 class="font-semibold text-sm sm:text-lg text-center mt-2 text-desc">A Full Stack Developer specializing in creating<br>Python Applications</h2>
 <div class="flex flex-wrap flex-grow w-full justify-center mt-5 gap-10">
-    <a href="#features"><button class="py-4 px-5 rounded-md text-white bg-startor hover:bg-[#e66000] whitespace-nowrap">Get To Know Me</button></a>
-    <a href="https://github.com/AlexBlackeyed"><button class="py-4 px-5 rounded-md text-[#056DFA] bg-[#056DFA] hover:bg-[#0562e1] hover:bg-opacity-[.15] bg-opacity-[.15] whitespace-nowrap">GitHub Account</button></a>
+    <a href="#features"><button class="py-4 text-center w-44 rounded-md text-white bg-startor hover:bg-[#e66000] whitespace-nowrap">Latest Projects</button></a>
+    <a href="https://github.com/AlexBlackeyed"><button class="py-4 text-center w-44 rounded-md text-[#056DFA] bg-[#056DFA] hover:bg-[#0562e1] hover:bg-opacity-[.15] bg-opacity-[.15] whitespace-nowrap">GitHub Account</button></a>
 </div>
