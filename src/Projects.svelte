@@ -5,7 +5,13 @@
             desc : 'A Portoflio/Blog website made in Django using Python and TailwindCSS',
             source : 'https://github.com/AlexBlackeyed/AlexBlackeyedWeb'
         },
-
+        
+        {
+            title : 'Connect4',
+            desc: 'A website that lets you relive your childhood memories by playing the infamous Connect4 Board Game. Made using Javascript and TailwindCSS',
+            source : 'https://github.com/AlexBlackeyed/connect-four'
+        },
+        
         {
             title : 'Sudoku Validator',
             desc : 'A Python Script created to be able to validate Sudoku Solutions, given a 2D Array',
